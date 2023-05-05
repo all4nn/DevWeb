@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        #container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+
+            width: 100vw;
+            height: 100vh;
+            
+            position:absolute;
+            top:0px;
+            left: 0px;
+
+            background-color: antiquewhite;
+        }
+
+        .item {
+            border: 1px dashed black;
+        }
+
+        #i1 {
+            background-color: coral;
+        }
+
+        #i2 {
+            background-color: darkolivegreen;
+        }
+
+        #i3 {
+            background-color: brown;
+        }
+
+        #i4 {
+            background-color: darkslateblue;
+        }
+
+        #i5 {
+            background-color: darkslategray;
+        }   
+
+    </style>
+
+    <title>Exercicio</title>
+</head>
+<body>
+    <div id="container">
+
+        <div id="i1" class="item"></div>
+        <div id="i2" class="item"></div>
+        <div id="i3" class="item"></div>
+        <div id="i4" class="item"></div>
+        <div id="i5" class="item"></div>
+        
+
+    </div>
+</body>
+</html>
