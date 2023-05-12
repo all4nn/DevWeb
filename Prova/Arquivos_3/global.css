@@ -1,0 +1,45 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.top_space {
+    height: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container>div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: max-content;
+    border-radius: 20px;
+    background-color: aqua;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+
+    /* Altere aqui */
+    
+}
+
+div>img {
+    height: 150px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+div>p {
+    max-width: 400px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* Altere aqui */
+}
+
+
