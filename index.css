@@ -1,0 +1,37 @@
+img{
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    background-image: url("./img/11854.jpg");
+    background-size: 200px 100px;
+
+    animation-name: andar;
+    animation-duration: 15s;
+    animation-delay: 500ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: unset;
+    animation-fill-mode: both
+}
+
+@keyframes andar{
+    0%{
+        left: -200px;
+        top: 0;
+    }
+
+    20%{
+        left: 50vw;
+        top: 50vh;
+    }
+
+    60%{
+        border: 5px solid rebeccapurple;
+    }
+
+    100%{
+        left: 100vw;
+        top:0vh;
+    }
+}
